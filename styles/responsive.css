@@ -1,0 +1,29 @@
+@media screen and (max-width: 728px) {
+    .tagline {
+        width: 500px;
+        margin: auto;
+        line-height: 50px;
+        margin-top: 7rem;
+    }
+    .introdescribo {
+        width: 600px;
+        margin: auto;
+    }
+    .tagline  h3 {
+        font-size: 80px;
+        text-align: center;
+        line-height: 84.5px;
+        margin: 2.5rem;
+    }
+    .introdescribo  p {
+        font-size: 30px;
+        text-align: center;
+        line-height: 51.5px;
+    }
+    .darkframe h1 {
+        font-size: 20px;
+        padding-left: 2rem;
+        padding-top: .8rem;
+    }
+    
+}
