@@ -1,29 +1,103 @@
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 720px) {
+    .darkframe h1 {
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
     .tagline {
-        width: 500px;
+        width: 32.2rem;
         margin: auto;
-        line-height: 50px;
-        margin-top: 7rem;
     }
+
     .introdescribo {
-        width: 600px;
+        width: 32.2rem;
         margin: auto;
     }
-    .tagline  h3 {
-        font-size: 80px;
+
+    .tagline h3 {
+        font-size: 5rem;
         text-align: center;
-        line-height: 84.5px;
-        margin: 2.5rem;
+        line-height: 6rem;
+        margin: 0.3rem;
     }
-    .introdescribo  p {
+
+    .introdescribo p {
         font-size: 30px;
         text-align: center;
-        line-height: 51.5px;
+        line-height: 4.5rem;
+        padding-top: .4rem;
     }
+}
+
+@media screen and (max-width: 590px) {
+    .darkframe {
+        padding: 2% 4%;
+    }
+
     .darkframe h1 {
-        font-size: 20px;
-        padding-left: 2rem;
-        padding-top: .8rem;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
     }
-    
+
+    .tagline {
+        width: 27.9rem;
+        margin: auto;
+    }
+
+    .introdescribo {
+        width: 28.1rem;
+        margin: auto;
+    }
+
+    .tagline h3 {
+        font-size: 5rem;
+        text-align: center;
+        line-height: 6rem;
+        margin: 0.3rem;
+    }
+
+    .introdescribo p {
+        font-size: 30px;
+        text-align: center;
+        line-height: 4.5rem;
+        padding-top: .4rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .darkframe {
+        padding: 1% 2%;
+    }
+
+    .darkframe h1 {
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .tagline {
+        width: 22.0rem;
+        margin: auto;
+    }
+
+    .introdescribo {
+        width: 22.7rem;
+        margin: auto;
+    }
+
+    .tagline h3 {
+        font-size: 3.5rem;
+        text-align: center;
+        line-height: 3.7rem;
+        margin: 0.3rem;
+        padding-top: 8.4rem
+    }
+
+    .introdescribo p {
+        font-size: 30px;
+        text-align: center;
+        line-height: 3.8rem;
+        padding-top: 2.1rem;
+    }
+
 }
