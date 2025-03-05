@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
     .darkframe h1 {
         padding-left: 1.5rem;
         padding-top: 0.5rem;
@@ -63,9 +63,9 @@
         padding-top: .4rem;
     }
 
-}
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 384px) {
     .darkframe {
         padding: 1% 2%;
     }
@@ -86,18 +86,18 @@
     }
 
     .tagline h3 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         text-align: center;
-        line-height: 3.7rem;
+        line-height: 3.6rem;
         margin: 0.3rem;
-        padding-top: 8.4rem
+        padding-top: 2.3rem;
     }
-
     .introdescribo p {
-        font-size: 30px;
+        font-size: 14.7px;
         text-align: center;
-        line-height: 3.8rem;
-        padding-top: 2.1rem;
+        line-height: 3.0rem;
+        padding-top: 1.0rem;
     }
-
 }
+
+
