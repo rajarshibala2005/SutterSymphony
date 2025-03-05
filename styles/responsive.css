@@ -65,7 +65,7 @@
 
 } */
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 360px) and (min-resolution: 2dppx) {
     .darkframe {
         padding: 1% 2%;
     }
