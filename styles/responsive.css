@@ -1,34 +1,38 @@
 @media screen and (max-width: 720px) {
+    .darkframe {
+        padding: 2vw 4vw;
+    }
+
     .darkframe h1 {
         padding-left: 1.5rem;
         padding-top: 0.5rem;
     }
 
     .tagline {
-        width: 32.2rem;
+        width: 50.5vw;
         margin: auto;
     }
 
     .introdescribo {
-        width: 39.1rem;
+        width: 24.3rem;
         margin: auto;
     }
 
     .tagline h3 {
-            font-size: 5rem;
-            text-align: center;
-            line-height: 4.9rem;
-            margin: -2.6rem;
-    }
-
-    .introdescribo p {
-        font-size: 28.8px;
+        font-size: 7.2vw;
         text-align: center;
-        line-height: 3.6rem;
-        padding-top: 4.1rem;
+        line-height: 6.5vw;
+        margin: -2.6rem;
     }
-}
 
+.introdescribo p {
+    font-size: 3.1vw;
+    text-align: center;
+    line-height: 3.3rem;
+    padding-top: 3.6rem;
+}
+}
+/* 
 @media screen and (max-width: 590px) {
     .darkframe {
         padding: 2% 4%;
@@ -92,12 +96,11 @@
         margin: 0.3rem;
         padding-top: 2.3rem;
     }
+
     .introdescribo p {
         font-size: 14.7px;
         text-align: center;
         line-height: 3.0rem;
         padding-top: 1.0rem;
     }
-}
-
-
+} */
