@@ -47,21 +47,19 @@
         justify-content: space-evenly;
         z-index: 3;
         top: -3.7%;
-        left: 23.4%;
     }
     
 }
 @media screen and (max-width: 690px) {
     .avatarHomePage {
         position: relative;
-        width: 314.4px;
+        width: 250px;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         z-index: 3;
         top: -3.6%;
-        left: 18.2%;
     }
 }
 
@@ -102,14 +100,13 @@
 
     .avatarHomePage {
         position: relative;
-        width: 367.9px;
+        width: 200px;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         z-index: 3;
         top: -3.7%;
-        left: 23.4%;
     }
 }
 
