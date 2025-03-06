@@ -31,6 +31,38 @@
         line-height: 3.3rem;
         padding-top: 3.6rem;
     }
+
+    /* review section styling */
+
+    .reviewSection {
+        width: 90%;
+    }
+
+    .avatarHomePage {
+        position: relative;
+        width: 367.9px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 3;
+        top: -3.7%;
+        left: 23.4%;
+    }
+    
+}
+@media screen and (max-width: 690px) {
+    .avatarHomePage {
+        position: relative;
+        width: 314.4px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 3;
+        top: -3.6%;
+        left: 18.2%;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -66,14 +98,26 @@
         line-height: 2.6rem;
         padding-top: 1.7rem;
     }
+    /* review section styling */
 
+    .avatarHomePage {
+        position: relative;
+        width: 367.9px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 3;
+        top: -3.7%;
+        left: 23.4%;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .darkframe {
         padding: 1% 2%;
     }
-    
+
     .darkframe h1 {
         padding-left: 1.5rem;
         padding-top: 0.5rem;
@@ -83,16 +127,17 @@
         width: 12.7rem;
         margin: auto;
     }
-    
+
     .introdescribo {
         width: 19.1rem;
         margin: auto;
     }
+
     .introdescribo {
         width: 20.6rem;
         margin: auto;
     }
-    
+
     .tagline h3 {
         font-size: 2.3rem;
         text-align: center;
@@ -100,7 +145,7 @@
         margin: 0.3rem;
         padding-top: 2.3rem;
     }
-    
+
     .introdescribo p {
         font-size: 14.7px;
         text-align: center;
@@ -108,10 +153,18 @@
         padding-top: 1.0rem;
     }
 }
+
 @media screen and (max-width: 350px) {
     .introdescribo {
         width: 14.7rem;
         margin: auto;
     }
+
+    .reviewSection h4 {
+        text-align: center;
+        text-decoration: nono;
+        font-size: 1.4rem;
+        padding: 1rem;
     
+    }
 }
