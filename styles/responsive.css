@@ -48,7 +48,42 @@
         z-index: 3;
         top: -3.7%;
     }
+
+    .weddingphotos {
+        width: 80%;
+        max-width: 1440px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+
+    .wddingBG {
+        width: 100vw;
+        height: 40vh;
+        background-position: center;
+        background-attachment: unset;
+        font-size: 2rem;
+    }
     
+    .hrscroll {
+        width: 90%;
+        
+    }
+
+    .hrscroll h4 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .hr-scroll-container {
+        gap: .8rem;
+    }
+
+    .hr-scroll-container img {
+        width: 200px;
+    }
 }
 @media screen and (max-width: 690px) {
     .avatarHomePage {
@@ -107,6 +142,36 @@
         justify-content: space-evenly;
         z-index: 3;
         top: -3.7%;
+    }
+
+    .weddingphotos {
+        width: 80%;
+        max-width: 1440px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5rem;
+        margin-top: 2rem;
+    }
+
+    .hrscroll {
+        width: 90%;
+        
+    }
+
+    .hrscroll h4 {
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: left;
+        padding: .6rem 0;
+    }
+
+    .hr-scroll-container {
+        gap: .5rem;
+    }
+
+    .hr-scroll-container img {
+        width: 120px;
     }
 }
 

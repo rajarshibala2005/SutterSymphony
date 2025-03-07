@@ -140,9 +140,9 @@ body {
 
 .wddingBG {
     width: 100vw;
-    height: 500px;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                    url(https://eventsmanagementkerala.com/wp-content/uploads/2025/01/wedding-photography-kannur.jpg);
+                    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXLKL7MYV0bKE3xn9cidOeZd64ko0sNlsgQ&s);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -151,7 +151,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
+    font-weight: lighter;
+    margin-top: 3rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .weddingphotos {
@@ -170,3 +176,51 @@ body {
     object-fit: fill;
     border-radius: 10px;
 }
+
+.hrscroll {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.hrscroll h4 {
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: left;
+    padding: 3rem 0;
+}
+
+.hr-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.hr-scroll-container img {
+    width: 400px;
+}
+
+.project-col h5 {
+    color: #4B3F72;
+    font-weight: bold;
+    font-size: 18px;
+}
+.project-col p {
+    font-size: 18px;
+}
+/* Horizontal Scrolling Enhancements */
+#scroll-container {
+    overflow-x: auto; /* Horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  ::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner look */
+  }
+  
+  /* Optional: Add spacing between project cards */
+  #scroll-container .col-10 {
+    flex: 0 0 auto; /* Prevent shrinking */
+  }
+
