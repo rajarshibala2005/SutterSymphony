@@ -43,11 +43,12 @@ const shoot2Details = [
     },
 ];
 
-function renderprojectdetails1(data) {
+function readingShootDetails(data1, data2) {
 
-    const div = document.getElementById('shoot1-details');
+    const div1 = document.getElementById('shoot1-details');
+    const div2 = document.getElementById('shoot2-details');
 
-    data.forEach(entry => {
+    data1.forEach(entry => {
         const row = document.createElement('div');
         row.classList.add('photo');
 
@@ -55,14 +56,9 @@ function renderprojectdetails1(data) {
             `<img src=${entry.image} alt="Project 1">`
             ;
 
-        div.appendChild(row);
+        div1.appendChild(row);
     });
-}
-function renderprojectdetails2(data) {
-
-    const div = document.getElementById('shoot2-details');
-
-    data.forEach(entry => {
+    data2.forEach(entry => {
         const row = document.createElement('div');
         row.classList.add('photo');
 
@@ -70,9 +66,8 @@ function renderprojectdetails2(data) {
             `<img src=${entry.image} alt="Project 1">`
             ;
 
-        div.appendChild(row);
+        div2.appendChild(row);
     });
 }
 
-renderprojectdetails1(shoot1Details);
-renderprojectdetails2(shoot2Details);
+readingShootDetails(shoot1Details, shoot2Details);

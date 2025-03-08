@@ -55,7 +55,7 @@
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: .8rem;
         margin-top: 5rem;
     }
 
@@ -66,10 +66,10 @@
         background-attachment: unset;
         font-size: 2rem;
     }
-    
+
     .hrscroll {
         width: 90%;
-        
+
     }
 
     .hrscroll h4 {
@@ -82,9 +82,26 @@
     }
 
     .hr-scroll-container img {
-        width: 200px;
+        width: 250px;
     }
+
+    .footer h1 {
+        font-size: 1.7rem;
+    }
+
+    .footer img {
+        width: 8rem;
+        margin-bottom: 3rem;
+    }
+    .socialmedialinks {
+        width: 300px;
+    }
+    .socialmedialinks img {
+        width: 60px;
+    }
+
 }
+
 @media screen and (max-width: 690px) {
     .avatarHomePage {
         position: relative;
@@ -131,6 +148,7 @@
         line-height: 2.6rem;
         padding-top: 1.7rem;
     }
+
     /* review section styling */
 
     .avatarHomePage {
@@ -156,7 +174,7 @@
 
     .hrscroll {
         width: 90%;
-        
+
     }
 
     .hrscroll h4 {
@@ -171,7 +189,18 @@
     }
 
     .hr-scroll-container img {
-        width: 120px;
+        width: 170px;
+    }
+
+    .footer img {
+        width: 8rem;
+        margin-bottom: 3rem;
+    }
+    .socialmedialinks {
+        width: 280px;
+    }
+    .socialmedialinks img {
+        width: 50px;
     }
 }
 
@@ -214,6 +243,25 @@
         line-height: 3.0rem;
         padding-top: 1.0rem;
     }
+
+    .footer h1 {
+        font-size: 1rem;
+    }
+
+    .footer img {
+        width: 6rem;
+        margin-bottom: 4rem;
+    }
+    .socialmedialinks {
+        width: 200px;
+    }
+    .socialmedialinks img {
+        width: 30px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -227,6 +275,6 @@
         text-decoration: nono;
         font-size: 1.4rem;
         padding: 1rem;
-    
+
     }
 }
