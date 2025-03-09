@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/animation.css">
 </head>
 
 <body>
@@ -23,10 +24,10 @@
             <div class="bg_slide">
                 <div class="darkframe">
                     <h1>SutterSymphony</h1>
-                    <div class="tagline">
+                    <div class="tagline fade-slide-top">
                         <h3>Capturing Moments, Composing Memories</h3>
                     </div>
-                    <div class="introdescribo">
+                    <div class="introdescribo fade-in">
                         <p>We blend artistry with photography to turn fleeting moments into timeless visual symphonies.
                             Every shot tells a story, evoking emotion and preserving memories with elegance and
                             authenticity.</p>
@@ -60,8 +61,8 @@
                 <img src="images/review3.jpg" alt="avatar">
             </div>
             <div class="reviewSection">
-                <h4>Our Client's Says</h4>
-                <p>ShutterSymphony beautifully captures the essence of every moment! Their attention to detail,
+                <h4 class="fade-in">Our Client's Says</h4>
+                <p class="fade-slide-bottom">ShutterSymphony beautifully captures the essence of every moment! Their attention to detail,
                     creativity, and passion shine through in every shot. Truly a masterpiece in photography!</p>
             </div>
         </dib>
@@ -71,14 +72,14 @@
             <H5>Wedding</H5>
         </div>
         <div class="weddingphotos">
-            <img src="https://pipbroadcast.com/wp-content/uploads/2023/01/bengali-candid-wedding-photography.jpg"
+            <img class="fade-in" src="https://pipbroadcast.com/wp-content/uploads/2023/01/bengali-candid-wedding-photography.jpg"
                 alt="image">
-            <img src="https://arjunkarthaphotography.com/wp-content/uploads/2016/11/online-wedding-photography-course-cover-1.jpg"
+            <img class="fade-in delay1" src="https://arjunkarthaphotography.com/wp-content/uploads/2016/11/online-wedding-photography-course-cover-1.jpg"
                 alt="">
-            <img src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
-            <img src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
-            <img src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
-            <img src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
+            <img class="fade-in delay2" src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
+            <img class="fade-in delay3" src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
+            <img class="fade-in delay4" src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
+            <img class="fade-in delay5" src="https://clickstory.in/wp-content/uploads/2024/11/candid-moment-gaye-holud-prasanna.jpg" alt="">
         </div>
         <section class="hrscroll">
               <h4 class="fade-in">Rice Ceremony</h4>
@@ -93,8 +94,8 @@
     </main>
     <footer>
         <div class="footer">
-            <h1>SutterSymphony</h1>
-            <div class="socialmedialinks">
+            <h1 class="fade-in delay1">SutterSymphony</h1>
+            <div class="socialmedialinks fade-in delay2">
                 <a href="#"><img src="images/facbook.png" alt="logo"></a>
                 <a href="#"><img src="images/youtube-icon.png" alt="logo"></a>
                 <a href="#"><img src="images/instagram.png" alt="logo"></a>
@@ -107,6 +108,7 @@
     <script src="scripts/scrippt.js"></script>
     <script src="scripts/shootsDetails.js"></script>
     <script src="scripts/hr_autoscroll.js"></script>
+    <script src="scripts/elementAnimeOnView.js"></script>
 </body>
 
 </html>

@@ -46,7 +46,7 @@ body {
 .introdescribo p {
     font-size: 22.6px;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-weight: lighter;
 }
 
@@ -217,8 +217,9 @@ body {
 
 .footer {
     width: 100vw;
-    height: 500px;
+    height: auto;
     margin-top: 7rem;
+    padding: 1rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(https://kanganfilms.com/wp-content/uploads/2024/08/pre-wedding-_rishikesh.jpg.webp);
     background-repeat: no-repeat;
